@@ -6,9 +6,9 @@
 
 /**
     devDependencies
-    2-  chai:- assertion library for Node and the browser that
+    1-  chai:- assertion library for Node and the browser that
         can be delightfully paired with any javascript testing framework.
-    3-  Mocha:- test framework running on Node.js and in the browser, 
+    2-  Mocha:- test framework running on Node.js and in the browser, 
         making asynchronous testing simple and fun
  */
 
@@ -17,7 +17,7 @@
     https://mochajs.org/
 */
 
-/* TDD test approach is Test Firts and we have three test codes as below
+/* Fibonacci TDD test using the Test First Approach and we have three test codes as below
     Test Code One
     Test Code Two
     Test Code Three
@@ -31,7 +31,7 @@
 ****************************************************************/
 const fibonacci = (n) => {
     try{
-         //checking for datatype entered
+        //checking for datatype entered
         if (typeof n !== 'number'){
             return 'undefined';
         }
@@ -45,9 +45,10 @@ const fibonacci = (n) => {
             return arr;
         }
     }catch (err){
-        console.log('Failed to run tests')
+        console.log('Failed to run tests');
     }
 };
+
 
 
 /***************************************************************
@@ -67,9 +68,10 @@ const fibonacci = (n) => {
 //             return n-1;
 //         }
 //     }catch (err){
-//         console.log('Failed to run tests')
+//         console.log('Failed to run tests');
 //     }
 // };
+
 
 
 /********************************************************************
@@ -93,8 +95,9 @@ const fibonacci = (n) => {
 //      return list[n];
 //      }
 //     }catch(err){
-//         console.log('Failed to run tests')
+//         console.log('Failed to run tests');
 //     }
 // };
+
 
 module.exports = fibonacci;
