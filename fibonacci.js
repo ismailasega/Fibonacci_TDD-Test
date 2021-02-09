@@ -17,17 +17,17 @@
     https://mochajs.org/
 */
 
-/* Fibonacci TDD test using the Test First Approach and we have three test codes as below
-    Test Code One
-    Test Code Two
-    Test Code Three
+/* Fibonacci TDD test using the Test First Approach and we have three versions (V1, V2, V3) as below
+    Version One
+    Version Two
+    Version Three
 
-    Kindly run test per test to see fails and success 
+    Kindly run test per version to see fails and success 
 */
 
 
 /***************************************************************
- * Test Code One **** 2-Passed, 2-Failed and Throwing Execption
+ * Version One **** 2-Passed, 2-Failed and Throwing Execption
 ****************************************************************/
 const fibonacci = (n) => {
     try{
@@ -52,7 +52,7 @@ const fibonacci = (n) => {
 
 
 /***************************************************************
- * Test Code Two **** 2-Passed, 2-Failed and No Execptions thrown
+ * Version Two **** 2-Passed, 2-Failed and No Execptions thrown
 ****************************************************************/
 // const fibonacci = (n) => {
 //     try{
@@ -75,7 +75,7 @@ const fibonacci = (n) => {
 
 
 /********************************************************************
- * Test Code Three **** 4-Passing, 0-Failing and No Execptions thrown
+ * Version Three **** 4-Passing, 0-Failing and No Execptions thrown
 *********************************************************************/
 // const fibonacci = (n) =>{
 //     try{
